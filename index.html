@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+const resume={
+    //2.Create your own resume data in JSON format
+    "basic":[{
+    "name":"K.Arthi",
+"dateOfBirth":"02-09-2000",
+"picture":"",
+"email":"aaarthi2927@gmail.com",
+"githubLink":"https://github.com/arthi2900",
+"phone":"9786516135"
+}],
+"education":[{
+    "studyType":"10",
+"schoolName":"st.paul.matric.hr.sec.school,kurinjipadi",
+"percentage":"75%",
+"year":"2015",
+"studyType":"+2",
+"schoolName":"st.paul.matric.hr.sec.school,kurinjipadi",
+"percentage":"55%",
+"year":"2017",
+"institution":"cauvery college for women's",
+"area":"trichy",
+"degree":"BCA",
+"percentage":"78%",
+"year":"2020"
+}],
+"Extra Curricular Activities":[{
+    "keywords":["Participate in two day career development training programme",
+"Participate in 30 day entrepreneurship development training programme"
+]
+}],
+
+"Hobbies":[{
+    "keywords":[
+"Web development",
+"Internet Surfing"
+]
+}],
+}
+//console.log(resume);
+//1.For the given JSON iterate over all for loops (for, for in, for of, forEach)
+var Data={
+  "data1": [11, 12, 13, 14, 15]
+ }
+
+//for loop
+for(let i=0;i<Data.data1.length;i++){
+     console.log(Data.data1[i]);
+}
+//for in
+for(let num in Data)
+{
+  console.log(Data[num]);
+}
+//for each
+var data1=[11, 12, 13, 14, 15]
+data1.forEach(element=>console.log(element));
+//for
+for(let num of data1)
+{
+  console.log(num);
+}
+
+
+</script>
+</body>
+</html>
